@@ -25,5 +25,12 @@ class LoginViewController: UIViewController {
         
     }
     
+    
+    @IBAction func navToForgotPassword(_ sender: Any) {
+        let forgotPasswordVC:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ForgotPasswordStoryBoard") as UIViewController
+        forgotPasswordVC.modalPresentationStyle = .fullScreen
+        self.present(forgotPasswordVC, animated: true, completion: nil)
+    }
+    
 }
 
