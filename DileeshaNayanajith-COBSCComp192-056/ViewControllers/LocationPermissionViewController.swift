@@ -7,32 +7,24 @@
 //
 
 import UIKit
-import CoreLocation
+import SPPermissions
 
 class LocationPermissionViewController: UIViewController {
     @IBOutlet weak var permissionGrantedButton: UIButton!
-    
-    let locationManager = CLLocationManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         permissionGrantedButton.layer.cornerRadius = 18    }
     
     @IBAction func allowLocationAction(_ sender: Any) {
-        let locStatus = CLLocationManager.authorizationStatus()
-           switch locStatus {
-              case .notDetermined:
-                 locationManager.requestWhenInUseAuthorization()
-              return
-              case .denied, .restricted:
-                 let alert = UIAlertController(title: "Location Services are disabled", message: "Please enable Location Services in your Settings", preferredStyle: .alert)
-                 let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-                 alert.addAction(okAction)
-                 present(alert, animated: true, completion: nil)
-              return
-              case .authorizedAlways, .authorizedWhenInUse:
-              break
-           }
+        let controller = SPPermissions.dialog([.locationWhenInUse])
+        controller.titleText = "Get Location Permission"
+        controller.present(on: self)
+        
+        let loginVC:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainStoryBoard") as UIViewController
+        loginVC.modalPresentationStyle = .fullScreen
+        self.present(loginVC, animated: true, completion: nil)
+        
     }
     
 

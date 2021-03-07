@@ -10,5 +10,8 @@ target 'DileeshaNayanajith-COBSCComp192-056' do
 	pod "Firebase/Auth"
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
+	pod 'SkeletonView'
+  	pod 'Firebase/Storage'
+  	pod 'SPPermissions/Location'
 
 end

@@ -10,6 +10,7 @@
 		2DA814BB25F5499000960B78 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA814BA25F5499000960B78 /* Utilities.swift */; };
 		2DA814BE25F54EE700960B78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DA814BD25F54EE700960B78 /* GoogleService-Info.plist */; };
 		2DA814D425F572A400960B78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA814D325F572A400960B78 /* Constants.swift */; };
+		2DA8152E25F5904D00960B78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8152D25F5904D00960B78 /* MainViewController.swift */; };
 		3747E59C25EF900C0038E9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747E59B25EF900C0038E9D2 /* AppDelegate.swift */; };
 		3747E59E25EF900C0038E9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747E59D25EF900C0038E9D2 /* SceneDelegate.swift */; };
 		3747E5A025EF900C0038E9D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747E59F25EF900C0038E9D2 /* LoginViewController.swift */; };
@@ -27,6 +28,7 @@
 		2DA814BA25F5499000960B78 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		2DA814BD25F54EE700960B78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DA814D325F572A400960B78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2DA8152D25F5904D00960B78 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3747E59825EF900C0038E9D2 /* DileeshaNayanajith-COBSCComp192-056.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DileeshaNayanajith-COBSCComp192-056.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3747E59B25EF900C0038E9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3747E59D25EF900C0038E9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				3773645C25F331A200EB1BB6 /* RegisterViewController.swift */,
 				3773645E25F3745000EB1BB6 /* ForgotPasswordViewController.swift */,
 				37D3FDF725F3F44A00CFE3FC /* LocationPermissionViewController.swift */,
+				2DA8152D25F5904D00960B78 /* MainViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				37D3FDF825F3F44A00CFE3FC /* LocationPermissionViewController.swift in Sources */,
 				3747E59C25EF900C0038E9D2 /* AppDelegate.swift in Sources */,
 				3747E59E25EF900C0038E9D2 /* SceneDelegate.swift in Sources */,
+				2DA8152E25F5904D00960B78 /* MainViewController.swift in Sources */,
 				3773645D25F331A200EB1BB6 /* RegisterViewController.swift in Sources */,
 				2DA814D425F572A400960B78 /* Constants.swift in Sources */,
 			);
