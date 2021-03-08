@@ -784,12 +784,54 @@
                             <constraint firstItem="Fhc-qf-zFi" firstAttribute="trailing" secondItem="oAy-JX-8aw" secondAttribute="trailing" id="oQu-Wr-6Zs"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Food" image="square.grid.2x2.fill" catalog="system" id="45r-Vf-XI9"/>
+                    <tabBarItem key="tabBarItem" title="Food" image="square.grid.2x2.fill" catalog="system" id="snT-1C-MAZ"/>
                     <navigationItem key="navigationItem" title="Cafe' NIBM" id="ZnJ-nF-HM7"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LFt-Ds-hBp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5200" y="81.521739130434796"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="rQm-Ve-fcO">
+            <objects>
+                <viewController title="Account" id="ndO-ti-4JG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Kc-my-ZzC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="ez4-xc-8RF">
+                                <rect key="frame" x="119" y="206.66666666666666" width="176" height="322.66666666666674"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Lxz-VO-ku3">
+                                        <rect key="frame" x="0.0" y="2" width="176" height="196.66666666666666"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="xtf-8P-s5U"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWZ-IY-ECR">
+                                        <rect key="frame" x="0.0" y="289" width="176" height="33.666666666666686"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="D90-61-jHP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ez4-xc-8RF" firstAttribute="centerY" secondItem="1Kc-my-ZzC" secondAttribute="centerY" id="GaU-PN-hSc"/>
+                            <constraint firstItem="ez4-xc-8RF" firstAttribute="centerX" secondItem="1Kc-my-ZzC" secondAttribute="centerX" id="YfB-zM-nEb"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Account" image="person.circle.fill" catalog="system" id="1qZ-aD-IuL"/>
+                    <navigationItem key="navigationItem" id="VSH-TC-Ty9"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ufh-aK-qVY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5222" y="751"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7uO-dg-COa">
@@ -865,6 +907,8 @@
     <resources>
         <image name="LocationIcon" width="170.66667175292969" height="170.66667175292969"/>
         <image name="Main Logo" width="100" height="100"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="square.grid.2x2.fill" catalog="system" width="128" height="114"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
