@@ -11,6 +11,8 @@
 		2DA814BE25F54EE700960B78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DA814BD25F54EE700960B78 /* GoogleService-Info.plist */; };
 		2DA814D425F572A400960B78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA814D325F572A400960B78 /* Constants.swift */; };
 		2DA8152E25F5904D00960B78 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8152D25F5904D00960B78 /* MainViewController.swift */; };
+		2DD5333D25F5FF1C00B4D25E /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5333C25F5FF1C00B4D25E /* FoodList.swift */; };
+		2DD5334025F6011300B4D25E /* StringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD5333F25F6011300B4D25E /* StringCell.swift */; };
 		3747E59C25EF900C0038E9D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747E59B25EF900C0038E9D2 /* AppDelegate.swift */; };
 		3747E59E25EF900C0038E9D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747E59D25EF900C0038E9D2 /* SceneDelegate.swift */; };
 		3747E5A025EF900C0038E9D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3747E59F25EF900C0038E9D2 /* LoginViewController.swift */; };
@@ -29,6 +31,8 @@
 		2DA814BD25F54EE700960B78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DA814D325F572A400960B78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2DA8152D25F5904D00960B78 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2DD5333C25F5FF1C00B4D25E /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		2DD5333F25F6011300B4D25E /* StringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCell.swift; sourceTree = "<group>"; };
 		3747E59825EF900C0038E9D2 /* DileeshaNayanajith-COBSCComp192-056.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DileeshaNayanajith-COBSCComp192-056.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3747E59B25EF900C0038E9D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3747E59D25EF900C0038E9D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +78,15 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		2DD5333A25F5FEE000B4D25E /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				2DD5333C25F5FF1C00B4D25E /* FoodList.swift */,
+				2DD5333F25F6011300B4D25E /* StringCell.swift */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
 		3747E58F25EF900C0038E9D2 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +108,7 @@
 		3747E59A25EF900C0038E9D2 /* DileeshaNayanajith-COBSCComp192-056 */ = {
 			isa = PBXGroup;
 			children = (
+				2DD5333A25F5FEE000B4D25E /* TableViews */,
 				3747E59B25EF900C0038E9D2 /* AppDelegate.swift */,
 				3747E59D25EF900C0038E9D2 /* SceneDelegate.swift */,
 				2DA814B925F5496800960B78 /* Helpers */,
@@ -248,11 +262,13 @@
 				3773645F25F3745000EB1BB6 /* ForgotPasswordViewController.swift in Sources */,
 				2DA814BB25F5499000960B78 /* Utilities.swift in Sources */,
 				37D3FDF825F3F44A00CFE3FC /* LocationPermissionViewController.swift in Sources */,
+				2DD5334025F6011300B4D25E /* StringCell.swift in Sources */,
 				3747E59C25EF900C0038E9D2 /* AppDelegate.swift in Sources */,
 				3747E59E25EF900C0038E9D2 /* SceneDelegate.swift in Sources */,
 				2DA8152E25F5904D00960B78 /* MainViewController.swift in Sources */,
 				3773645D25F331A200EB1BB6 /* RegisterViewController.swift in Sources */,
 				2DA814D425F572A400960B78 /* Constants.swift in Sources */,
+				2DD5333D25F5FF1C00B4D25E /* FoodList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

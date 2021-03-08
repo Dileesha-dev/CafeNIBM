@@ -21,11 +21,20 @@ class LocationPermissionViewController: UIViewController {
         controller.titleText = "Get Location Permission"
         controller.present(on: self)
         
-        let loginVC:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainStoryBoard") as UIViewController
-        loginVC.modalPresentationStyle = .fullScreen
-        self.present(loginVC, animated: true, completion: nil)
+        navigateToMain()
         
     }
+    
+    @IBAction func denyPermission(_ sender: Any) {
+        navigateToMain()
+    }
+    
+    func navigateToMain(){
+        let mainVC:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainStoryBoard") as UIViewController
+        mainVC.modalPresentationStyle = .fullScreen
+        self.present(mainVC, animated: true, completion: nil)
+    }
+    
     
 
 }
