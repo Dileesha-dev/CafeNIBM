@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9F58A925F64C1500F870DE /* FoodInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F58A825F64C1500F870DE /* FoodInfo.swift */; };
 		2DA814BB25F5499000960B78 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA814BA25F5499000960B78 /* Utilities.swift */; };
 		2DA814BE25F54EE700960B78 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DA814BD25F54EE700960B78 /* GoogleService-Info.plist */; };
 		2DA814D425F572A400960B78 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA814D325F572A400960B78 /* Constants.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		02137500E05CC7C540EBB4B8 /* Pods_DileeshaNayanajith_COBSCComp192_056.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DileeshaNayanajith_COBSCComp192_056.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9F58A825F64C1500F870DE /* FoodInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInfo.swift; sourceTree = "<group>"; };
 		2DA814BA25F5499000960B78 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		2DA814BD25F54EE700960B78 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2DA814D325F572A400960B78 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -69,6 +71,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		2D9F58A725F64BFE00F870DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2D9F58A825F64C1500F870DE /* FoodInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2DA814B925F5496800960B78 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -108,10 +118,11 @@
 		3747E59A25EF900C0038E9D2 /* DileeshaNayanajith-COBSCComp192-056 */ = {
 			isa = PBXGroup;
 			children = (
-				2DD5333A25F5FEE000B4D25E /* TableViews */,
+				2D9F58A725F64BFE00F870DE /* Model */,
 				3747E59B25EF900C0038E9D2 /* AppDelegate.swift */,
 				3747E59D25EF900C0038E9D2 /* SceneDelegate.swift */,
 				2DA814B925F5496800960B78 /* Helpers */,
+				2DD5333A25F5FEE000B4D25E /* TableViews */,
 				3773645B25F3309900EB1BB6 /* ViewControllers */,
 				3747E5A125EF900C0038E9D2 /* Main.storyboard */,
 				3747E5A425EF900E0038E9D2 /* Assets.xcassets */,
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3747E5A025EF900C0038E9D2 /* LoginViewController.swift in Sources */,
+				2D9F58A925F64C1500F870DE /* FoodInfo.swift in Sources */,
 				3773645F25F3745000EB1BB6 /* ForgotPasswordViewController.swift in Sources */,
 				2DA814BB25F5499000960B78 /* Utilities.swift in Sources */,
 				37D3FDF825F3F44A00CFE3FC /* LocationPermissionViewController.swift in Sources */,

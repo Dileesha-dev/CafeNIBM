@@ -15,7 +15,13 @@ class StringCell: UITableViewCell {
         // Initialization code
     }
 
+    
+    @IBOutlet weak var coverImage: UIImageView!
     @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var price: UILabel!
+    @IBOutlet weak var desc: UILabel!
+    
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
